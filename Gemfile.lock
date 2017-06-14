@@ -17,7 +17,9 @@ GEM
     i18n (0.8.4)
     minitest (5.10.2)
     mustermann (1.0.0)
+    openssl (2.0.3)
     pg (0.21.0)
+    puma (3.9.1)
     rack (2.0.3)
     rack-flash-session (1.0.2)
       rack (>= 1.0)
@@ -43,7 +45,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  openssl
   pg
+  puma
   rack-flash-session
   rack-flash3
   rake

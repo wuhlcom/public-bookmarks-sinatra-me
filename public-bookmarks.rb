@@ -1,9 +1,11 @@
+require 'rubygems'
 require 'sinatra'
 require 'sinatra/activerecord'
 require './models/public_bookmark'
 require 'rack-flash'
 require 'rack/flash/test'
 require './config/initializers/http_basic_auth.rb'
+configure { set :server, :puma }
 enable :session
 use Rack::Flash
 
