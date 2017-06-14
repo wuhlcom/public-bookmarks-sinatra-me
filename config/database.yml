@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: public-bookmarks-sinatra_development
+  #host: localhost
+  encoding: unicode #utf-8
+  username: postgres
+  password: postgres
