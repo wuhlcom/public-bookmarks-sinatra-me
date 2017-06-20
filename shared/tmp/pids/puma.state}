@@ -1,0 +1,4 @@
+---
+pid: 7367
+control_url: unix:///home/zhilu/sinatra/public-bookmarks-sinatra/shared/tmp/sockets/pumactl.sock
+control_auth_token: d1b00beb7d523a872231f3bd1c724aa
